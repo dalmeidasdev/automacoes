@@ -1,0 +1,1 @@
+Início em 09/09/2026, eu entendo o básico de python mas nada muito avançado, eu não usarei IA's para a criação dos códigos, a minha ideia aqui é realmente aprimorar minhas tecnicas codando, se por algum acaso eu fizer o uso de alguma IA eu irei falar como e onde
