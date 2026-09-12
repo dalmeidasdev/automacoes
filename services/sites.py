@@ -5,7 +5,7 @@ import pyautogui as pa
 
 pa.PAUSE = 0.5
 
-def chrome():
+def abrir_chrome():
     pa.press('win')
     pa.write('chrome')
     pa.press('enter')
@@ -13,12 +13,12 @@ def chrome():
 
     # E se aparecer a janela de escolher usuário? Boa pergunta, eu também não sei resolver (ainda), mas no meu caso eu só desativei ela
 
-def github():
-    chrome() # Não precisamos inventar a roda com ela já pronta (filosofei nessa)
+def abrir_github():
+    abrir_chrome() # Não precisamos inventar a roda com ela já pronta (filosofei nessa)
     pa.write('https://github.com/')
     pa.press('enter')
 
-def youtube():
-    chrome()
+def abrir_youtube():
+    abrir_chrome()
     pa.write('https://www.youtube.com/')
     pa.press('enter')

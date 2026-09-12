@@ -1,6 +1,6 @@
 # Mini menu (pai ta inspirado hj)
 
-from services.sites import chrome, github, youtube
+from services.sites import abrir_chrome, abrir_github, abrir_youtube
 
 def mensagem(msg): # Pra que? Não sei, só deu vontade mesmo
     print('=' * 100)
@@ -15,11 +15,11 @@ def menu():
             mensagem('\nEscolha uma das opções abaixo: \n[1] Abrir Chrome\n[2] Abrir Youtube\n[3] Abrir github\n')
             escolha = int(input('Escolha: '))
             if escolha == 1:
-                chrome()
+                abrir_chrome()
             elif escolha == 2:
-                youtube()
+                abrir_youtube()
             elif escolha == 3:
-                github()
+                abrir_github()
             else:
                 print('Opção inválida !')
         elif continuar == 'C':
