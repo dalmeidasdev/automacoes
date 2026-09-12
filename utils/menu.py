@@ -26,7 +26,6 @@ def menu():
             print('Cancelando programa !')
             break
         else:
-            print('Opção inváida, cancelando programa')
-            break
+            print('Opção inváida, tente novamente !')
         
     
