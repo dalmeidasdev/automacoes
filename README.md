@@ -30,7 +30,7 @@ Requisitos: Python 3 e Windows.
 git clone https://github.com/dalmeidasdev/automacoes.git
 cd automacoes/auto-sites-v1
 pip install pyautogui
-python main.py   <!-- AJUSTAR: nome do arquivo principal -->
+python main.py   
 ```
 
 ## 🗺️ Próximos passos
